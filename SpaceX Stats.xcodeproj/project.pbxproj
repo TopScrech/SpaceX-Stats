@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 63;
+	objectVersion = 90;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,10 +23,8 @@
 /* Begin PBXFrameworksBuildPhase section */
 		F3E7EC062C66D2D1008CD17B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -50,10 +48,10 @@
 		F3E7EC1B2C66D2ED008CD17B /* SpaceX Stats */ = {
 			isa = PBXGroup;
 			children = (
-				F3E7EC102C66D2D2008CD17B /* Assets.xcassets */,
-				F3E7EC0E2C66D2D1008CD17B /* ContentView.swift */,
 				F3E7EC0C2C66D2D1008CD17B /* SpaceX Stats.swift */,
+				F3E7EC102C66D2D2008CD17B /* Assets.xcassets */,
 				F3E7EC122C66D2D2008CD17B /* SpaceX_Stats.entitlements */,
+				F3E7EC0E2C66D2D1008CD17B /* ContentView.swift */,
 			);
 			path = "SpaceX Stats";
 			sourceTree = "<group>";
@@ -71,11 +69,7 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			name = "SpaceX Stats";
-			packageProductDependencies = (
-			);
 			productName = "SpaceX Stats";
 			productReference = F3E7EC092C66D2D1008CD17B /* SpaceX Stats.app */;
 			productType = "com.apple.product-type.application";
@@ -88,7 +82,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1600;
+				LastUpgradeCheck = 1640;
 				TargetAttributes = {
 					F3E7EC082C66D2D1008CD17B = {
 						CreatedOnToolsVersion = 16.0;
@@ -96,7 +90,6 @@
 				};
 			};
 			buildConfigurationList = F3E7EC042C66D2D1008CD17B /* Build configuration list for PBXProject "SpaceX Stats" */;
-			compatibilityVersion = "Xcode 15.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -105,6 +98,7 @@
 			);
 			mainGroup = F3E7EC002C66D2D1008CD17B;
 			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 90;
 			productRefGroup = F3E7EC0A2C66D2D1008CD17B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -117,28 +111,24 @@
 /* Begin PBXResourcesBuildPhase section */
 		F3E7EC072C66D2D1008CD17B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F3E7EC112C66D2D2008CD17B /* Assets.xcassets in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F3E7EC052C66D2D1008CD17B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F3E7EC0F2C66D2D1008CD17B /* ContentView.swift in Sources */,
 				F3E7EC0D2C66D2D1008CD17B /* SpaceX Stats.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F3E7EC162C66D2D2008CD17B /* Debug */ = {
+		F3E7EC162C66D2D2008CD17B /* Debug configuration for PBXProject "SpaceX Stats" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -172,7 +162,9 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -199,7 +191,7 @@
 			};
 			name = Debug;
 		};
-		F3E7EC172C66D2D2008CD17B /* Release */ = {
+		F3E7EC172C66D2D2008CD17B /* Release configuration for PBXProject "SpaceX Stats" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -233,7 +225,9 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -252,7 +246,7 @@
 			};
 			name = Release;
 		};
-		F3E7EC192C66D2D2008CD17B /* Debug */ = {
+		F3E7EC192C66D2D2008CD17B /* Debug configuration for PBXNativeTarget "SpaceX Stats" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -260,8 +254,7 @@
 				CODE_SIGN_ENTITLEMENTS = "SpaceX Stats/SpaceX_Stats.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
-				DEVELOPMENT_ASSET_PATHS = "\"SpaceX Stats/Preview Content\"";
-				DEVELOPMENT_TEAM = 8FQUA2F388;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -292,7 +285,7 @@
 			};
 			name = Debug;
 		};
-		F3E7EC1A2C66D2D2008CD17B /* Release */ = {
+		F3E7EC1A2C66D2D2008CD17B /* Release configuration for PBXNativeTarget "SpaceX Stats" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -300,8 +293,7 @@
 				CODE_SIGN_ENTITLEMENTS = "SpaceX Stats/SpaceX_Stats.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
-				DEVELOPMENT_ASSET_PATHS = "\"SpaceX Stats/Preview Content\"";
-				DEVELOPMENT_TEAM = 8FQUA2F388;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -338,19 +330,17 @@
 		F3E7EC042C66D2D1008CD17B /* Build configuration list for PBXProject "SpaceX Stats" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3E7EC162C66D2D2008CD17B /* Debug */,
-				F3E7EC172C66D2D2008CD17B /* Release */,
+				F3E7EC162C66D2D2008CD17B /* Debug configuration for PBXProject "SpaceX Stats" */,
+				F3E7EC172C66D2D2008CD17B /* Release configuration for PBXProject "SpaceX Stats" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		F3E7EC182C66D2D2008CD17B /* Build configuration list for PBXNativeTarget "SpaceX Stats" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3E7EC192C66D2D2008CD17B /* Debug */,
-				F3E7EC1A2C66D2D2008CD17B /* Release */,
+				F3E7EC192C66D2D2008CD17B /* Debug configuration for PBXNativeTarget "SpaceX Stats" */,
+				F3E7EC1A2C66D2D2008CD17B /* Release configuration for PBXNativeTarget "SpaceX Stats" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
